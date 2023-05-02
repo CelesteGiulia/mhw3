@@ -1,0 +1,140 @@
+body
+{
+    font-family: 'Inter', sans-serif; font-size: 16px;
+}
+  
+a{
+  text-decoration: none;
+}
+
+
+.big-text{font-size:50px;font-weight:800;font-family:'Oswald',sans-serif;padding:20px;text-align:center}
+
+.buttom{padding: 18px 28px;color:#fff; display:inline-block;border-radius:4px}
+
+
+.header{
+height:12vh; 
+width:100%;
+position: fixed;
+top:0;
+left:50%;
+transform: translateX(-50%);
+padding: 15px; 
+display: flex;
+max-width: 1350px;
+background: #000 ;
+}
+
+.menu{
+width:100%;
+}
+.menu li{display: inline-block;}
+.menu li a{color: #fff; 
+         padding: 7px;
+         font-family: 'Alkatra', cursive;
+         font-size: 21px;
+         display:block;}
+.cta{
+position: 100%;
+font-size: 20px;
+font-family: 'Alkatra', cursive;                  
+max-width: 1350px;
+padding: 26px; 
+   
+}
+
+
+.titolo{
+
+  height:80vh;
+  display: flex; width:100%; align-items: center;
+  background: linear-gradient(0deg, rgba(0,0,0,.3), rgba(0,0,0,0.9) ),url('sfondo.jpg') no-repeat center center;
+  background-size:cover;
+  color: #fff;
+}
+.titolo_content{
+  
+  width:100%;
+  max-width: 1350px;
+  margin: 0 auto;
+
+}
+.titolo_content h1
+.titolo_content p1{color:#fff;}
+
+.paragrafo{
+  display:flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  height:fit-content;
+   
+ 
+}
+.paragrafo_ing{ text-align:center;  border: 2px solid #000; border-radius: 10px;
+  margin:80px;
+}           
+.paragrafo_ing img{object-fit:cover;width:80%; height:100%  ;      
+
+}
+.titolo_paragrafo{
+  width:100%;
+  text-align:center;
+  font-size:20px;
+  font-weight:90;
+  font-family: 'Poppins', sans-serif;
+  padding:20px;
+  line-height:2px;
+  font-style: none; 
+  color:#000; 
+}
+
+.paragrafo_content{
+  width:90% ;
+  text-align:center;
+  font-size:3vh;
+  font-weight:300;
+  font-family:'Source Sans Pro', sans-serif;
+  font-style: none; 
+  padding: 40px;
+  line-height:25px;
+  color:#000;
+  } 
+
+  @media (max-width: 500px) {
+     .paragrafo_content{ 
+         padding: 5px; 
+     }
+     .titolo_paragrafo{
+         font-size:8px;
+         padding: 0px;
+     } 
+     .menu li a{
+         font-size:15px; 
+     }
+     .cta{
+     font-size:15px;}
+}
+
+
+.img_cane{
+  height:300px;
+  width: 200px;
+}
+
+
+.footer{
+width:100%;
+height:7vh;
+background:#000;
+font-size:6px;
+  font-weight:800;
+  font-family:'Ubuntu', sans-serif;
+  font-style: none; 
+  padding: 3px;
+  line-height:30px;
+  color: #fff;
+}
+
+
