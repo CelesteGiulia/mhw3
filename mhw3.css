@@ -124,12 +124,9 @@ padding: 26px;
 }
 .immagine {
   float:left;
-   width:45%;
+  width:45%;
   padding:5%;
   font-family: 'Poppins', sans-serif;
-  height: 20%;
-  border: solid #000;
-  
 }
 
 .footer{
